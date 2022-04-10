@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.nav{
+   
+    font-family: 'Ubuntu', sans-serif;
+    width:100%;
+    font-size: 17px;
+    width: 100%;
+   
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    height: 75px;
+    /* background-color: #151D3B; */
+    background-color: #041C32;
+    color: white;
+    list-style-type: none;
+    justify-content: center;
+}
+.nav ul li{
+    padding:0px 4%;
+    /* border:1px solid yellow; */
+    cursor: pointer;
+}
+
+    
+
+.musiclogo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+   
+    
+   
+}
+.musiclogo > p{
+    padding-left: 8px;
+}
+
+.musiclogo > img{
+    width:35px;
+    
+
+}

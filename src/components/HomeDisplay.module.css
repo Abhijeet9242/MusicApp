@@ -1,0 +1,28 @@
+.display{
+    background-image: url("../../public/back.jpg");
+    width:100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+.displaybtn{
+    position: absolute;
+    font-family: 'Pacifico' cursive;
+    top:8%;
+    left:12%;
+    
+    display: flex;
+    flex-direction: column;
+    color:#008E89;
+    font-size:40px;
+  
+    cursor: pointer;
+    border:0.1px solid #143F6B;
+    padding:2%;
+    align-items: center;
+    border-radius: 20px;
+
+}
+.displaybtn:hover{
+    box-shadow: #85C88A 2px 6px 14px;
+}

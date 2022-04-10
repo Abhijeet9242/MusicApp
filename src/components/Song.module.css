@@ -1,0 +1,63 @@
+.playsongcont{
+   width:100%;
+   background-color: #203239;
+   /* background-color: aqua; */
+   height:100vh;
+  
+  
+}
+
+.songcont{
+    width:400px;
+    height:280px;
+    border:1px solid green;
+    margin: auto;
+margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #F6F2D4;
+    border-radius: 10px;
+   
+}
+/* .playsongcont img{
+    width:100px;
+    height:100px;
+} */
+.imgdiv{
+    width:95%;
+    height:200px;
+    margin: auto;
+    padding-top: 10px;;
+   
+}
+.imgdiv > img {
+    width:100%;
+    height:100%;
+    
+}
+.titlespan {
+    color: #d82148;
+    text-align: center;
+   
+  }
+  .namespan {
+    color: black;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .titlediv{
+      margin-top: 10px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+  }
+
+  @media(max-width:768px){
+    .songcont{
+        width:300px;
+        height:300px;
+        
+        margin: auto;
+        margin-top: 60px;
+        margin-bottom: 30px;
+       
+    }
+}
